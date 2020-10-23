@@ -1,0 +1,5 @@
+---
+# tasks file for rename
+- name : change nom
+  hostname :
+     name : "nsapool05"
