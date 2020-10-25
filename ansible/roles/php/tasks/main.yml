@@ -1,0 +1,9 @@
+---
+# tasks file for php
+- hosts : all
+  tasks :
+    - name : install php
+      shell : apt-get install php7.3
+    
+    - name : php extensions
+      shell : apt-get install php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath php-intl

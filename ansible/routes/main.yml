@@ -1,5 +1,0 @@
----
-- hosts : root
-  roles :
-  - rename 
-

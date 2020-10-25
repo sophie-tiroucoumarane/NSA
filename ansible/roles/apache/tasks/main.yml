@@ -1,0 +1,6 @@
+---
+# tasks file for apache
+- hosts : all
+  tasks : 
+    - name : apache2
+      shell : apt-get install apache2 -y

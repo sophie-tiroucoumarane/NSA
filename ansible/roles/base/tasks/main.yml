@@ -1,0 +1,43 @@
+---
+# tasks file for base
+- hosts : all
+  tasks :
+    - name : update
+      shell : apt-get update 
+ 
+    - name : vim
+      shell : apt-get install vim -y
+
+    - name : git
+      shell : apt-get install git -y
+
+    - name : tree
+      shell : apt-get install tree -y
+
+    - name : htop
+      shell : apt-get install htop -y
+
+    - name : curl
+      shell : apt-get install curl -y
+
+    - name : emacs
+      shell : apt-get install emacs -y
+
+    - name : net-tools
+      shell : apt-get install net-tools -y
+
+    - name : sudo
+      shell : apt-get install sudo -y
+
+    - name : make
+      shell : apt-get install make -y
+
+    - name : unzip
+      shell : apt-get install unzip -y
+
+    - name : python3
+      shell : apt-get install python3 -y
+
+    - name : python3-pip
+      shell : apt-get install python3-pip -y
+
